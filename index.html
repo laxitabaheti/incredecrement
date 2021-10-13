@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Parcel Sandbox</title>
+    <meta charset="UTF-8" />
+  </head>
+
+  <body>
+    <div>
+      <p id="incdecre"></p>
+      <p>
+        <button
+          id="inc"
+          type="button"
+          onclick="document.getElementById('incdecre').innerHTML=0"
+        >
+          increment
+        </button>
+        <button
+          id="dcr"
+          type="button"
+          onclick="document.getElementById('incdecre').innerHTML=0"
+        >
+          decrement
+        </button>
+      </p>
+      <script>
+        let dflt = 0;
+        document.getElementById("incdecre").innerHTML = dflt;
+      </script>
+    </div>
+  </body>
+</html>
